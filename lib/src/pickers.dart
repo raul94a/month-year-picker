@@ -362,8 +362,7 @@ class _Button extends StatelessWidget {
       onPressed: isEnabled ? onPressed : null,
       style: TextButton.styleFrom(
         backgroundColor: buttonBackground,
-        primary: buttonText,
-        onSurface: buttonText,
+      
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(100.0),
         ),
